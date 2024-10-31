@@ -530,7 +530,7 @@ export default function Home() {
 
               <span>
                 <span className="label">Words for you:</span>
-                <span className="text">Karaoke д уулзацгаая</span>
+                <span className="text">Чамайг эхнэрээ болгож авна!!!!</span>
               </span>
             </div>
 
