@@ -323,7 +323,7 @@ export default function Home() {
           <div className="card-front">
             <div className="card-front">
               <figure>
-                <Image src={"/Bat-orgil.JPG"} alt={"Bat-orgil"} width={400} height={100} />
+                <Image src={"/Bat.JPG"} alt={"Bat-orgil"} width={400} height={100} />
                 <figcaption>Bat-orgil</figcaption>
               </figure>
             </div>
