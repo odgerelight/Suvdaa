@@ -6,7 +6,7 @@ export default function Home() {
       <div>
         <div className="bg-gray-800 h-screen w-screen flex flex-rpw justify-center items-center gap-12">
           <Link href="/invitation">
-            <button>Invitation</button>
+            <button>Ready?</button>
           </Link>
           <Link href="/letters">
             <button>Letters</button>
