@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react"
 
-export default function invitations() {
+export default function Invitations() {
   const [noCount, setNoCount] = useState<number>(0)
   const [yesPressed, setYesPressed] = useState<boolean>(false)
   const yesButtonSize = noCount * 20 + 16

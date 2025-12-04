@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function letters() {
+export default function Letters() {
   return (
     <div className='main-container'>
       <div className="flip-card-container" style={{ '--hue': 220 } as React.CSSProperties}>
