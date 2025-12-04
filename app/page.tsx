@@ -72,7 +72,6 @@ export default function Home() {
         </div>
       </div>
 
-
       <div className="flip-card-container" style={{ '--hue': 220 } as React.CSSProperties}>
         <div className="flip-card">
           <div className="card-front">
@@ -114,7 +113,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
 
       <div className="flip-card-container" style={{ '--hue': 220 } as React.CSSProperties}>
         <div className="flip-card">
@@ -274,7 +272,6 @@ export default function Home() {
         </div>
       </div>
 
-
       <div className="flip-card-container" style={{ '--hue': 220 } as React.CSSProperties}>
         <div className="flip-card">
           <div className="card-front">
@@ -316,7 +313,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
 
       <div className="flip-card-container" style={{ '--hue': 220 } as React.CSSProperties}>
         <div className="flip-card">
