@@ -1,0 +1,19 @@
+.wrap { position: relative; width: min(820px, 92vw); }
+.svg { width: 100%; height: auto; display: block; }
+.mo  { position: absolute; inset: 0; pointer-events: none; }
+
+/* Optional: default strokes if you want */
+.line {
+  stroke: rgba(255, 255, 255, 0.4);
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+
+.lttr {
+  fill: transparent;
+  stroke: #ffffff;
+  stroke-width: 2.2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  opacity: 1;
+}
