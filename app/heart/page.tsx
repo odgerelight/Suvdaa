@@ -26,7 +26,7 @@ const settings = {
 
 export default function LoveAnimation() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number | null>(null);
   const particlesRef = useRef<Particle[]>([]);
   const timeRef = useRef<number>(0);
 
@@ -250,7 +250,7 @@ export default function LoveAnimation() {
     // Cleanup
     return () => {
       window.removeEventListener('resize', handleResize);
-      if (animationRef.current) {
+      if (animationRef.current !== null) {
         cancelAnimationFrame(animationRef.current);
       }
     };
