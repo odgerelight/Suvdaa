@@ -31,7 +31,7 @@ export default function ValentineLetter() {
   const [isAccepted, setIsAccepted] = useState(false);
   const noBtnRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number | null>(null);
   const particlesRef = useRef<Particle[]>([]);
   const timeRef = useRef<number>(0);
 
@@ -287,7 +287,7 @@ export default function ValentineLetter() {
     // Cleanup
     return () => {
       window.removeEventListener('resize', handleResize);
-      if (animationRef.current) {
+      if (animationRef.current !== null) {
         cancelAnimationFrame(animationRef.current);
       }
     };
