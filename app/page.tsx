@@ -26,6 +26,12 @@ export default function Home() {
             Valentine
           </button>
         </Link>
+
+        {/* <Link href="/heart">
+          <button className="px-6 py-3 rounded-2xl bg-black text-white shadow-lg active:scale-95 transition">
+            Heart
+          </button>
+        </Link> */}
       </div>
     </main>
   );
