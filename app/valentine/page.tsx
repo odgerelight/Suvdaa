@@ -415,7 +415,7 @@ export default function ValentineLetter() {
                 }}
               >
                 <p className="text-pink-900">
-                  <strong>Valentine Date 2/14:</strong> B Caffe Bar
+                  <strong>Valentine Date 2/13 19:00</strong> B Caffe Bar
                 </p>
               </div>
             )}
